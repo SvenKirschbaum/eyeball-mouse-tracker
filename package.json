@@ -1,0 +1,19 @@
+{
+  "name": "eyeball-mouse-tracker",
+  "version": "0.0.1",
+  "description": "A Webcomponent displaying an image of rick and morty with their eyeballs following the mouse movement",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fallobst22/eyeball-mouse-tracker.git"
+  },
+  "author": "Sven Kirschbaum",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fallobst22/eyeball-mouse-tracker/issues"
+  },
+  "homepage": "https://github.com/fallobst22/eyeball-mouse-tracker#readme"
+}

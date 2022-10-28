@@ -1,0 +1,19 @@
+language: node_js
+node_js:
+  - 16
+install:
+  - npm ci
+script: 'true'
+deploy:
+  - provider: releases
+    edge: true
+    api_key: $GITHUB_TOKEN
+    file: "README.md"
+    on:
+      tags: true
+  - provider: npm
+    cleanup: false
+    api_token: $NPM_API_TOKEN
+    edge: true
+    on:
+      tags: true
