@@ -7,17 +7,7 @@
 
 # Demo
 
-<!--
-```
-<custom-element-demo>
-  <template>
-    <eyeball-mouse-tracker></eyeball-mouse-tracker>
-  </template>
-</custom-element-demo>
-```
--->
-
-See it in Action [here](https://www.kirschbaum.me/)
+See the component in Action [here](https://www.kirschbaum.me/)
 
 # Installation / Usage
 Install the package via npm or include the module file directly via unpkg:
@@ -26,7 +16,10 @@ Install the package via npm or include the module file directly via unpkg:
 <eyeball-mouse-tracker></eyeball-mouse-tracker>
 ```
 
-TODO: size and orientation
+# Roadmap
+- Document changing size and orientation
+- Support arbitrary images
+- Change pupil center distance based on mouse distance
 
 ## License
 
